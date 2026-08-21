@@ -3,7 +3,7 @@ import AttributeEditor from "@/components/AttributeEditor";
 export default function TwibbonPage() {
   return (
     <main className="min-h-screen">
-      {/* <div className="mx-auto max-w-7xl px-5 py-10 sm:px-6 lg:py-14">
+      <div className="mx-auto max-w-7xl px-5 py-10 sm:px-6 lg:py-14">
         <div className="mb-10 max-w-2xl">
           <div className="mb-3 inline-flex rounded-full bg-[#f9eadc] px-3 py-1 text-[11px] font-black uppercase tracking-[0.15em] text-[#a54a1e]">
             Atribut PKKMB
@@ -23,13 +23,10 @@ export default function TwibbonPage() {
           mode="twibbon"
           overlay="/assets/twibbon-overlay.png"
           width={1080}
-          height={1080}
+          height={1440}
           title="Buat Twibbon"
           description="Upload foto, atur posisi dan zoom foto, kemudian download Twibbon."
         />
-      </div> */}
-      <div className="h-[80dvh] w-full flex items-center justify-center gap-4">
-        Coming Soon
       </div>
     </main>
   );
