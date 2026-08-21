@@ -25,7 +25,7 @@ export default function TwibbonPage() {
           </div>
           <a
             target="_blank"
-            href="https://www.capcut.com/tv2/ZSVP23KYf"
+            href="https://www.capcut.com/tv2/ZSVPSDSnd/"
             referrerPolicy="no-referrer"
             rel="noopener noreferrer"
             className="flex items-center gap-2 font-semibold p-4 px-6 rounded-full bg-red-900 text-white mb-12 w-fit"
