@@ -1,4 +1,5 @@
 import AttributeEditor from "@/components/AttributeEditor";
+import Image from "next/image";
 
 export default function TwibbonPage() {
   return (
@@ -18,7 +19,21 @@ export default function TwibbonPage() {
             hasilnya.
           </p>
         </div>
-
+        <div className="space-y-2">
+          <div className="mb-3 inline-flex rounded-full bg-[#f9eadc] px-3 py-1 text-[11px] font-black uppercase tracking-[0.15em] text-[#a54a1e]">
+            Twibbon Video Template
+          </div>
+          <a
+            target="_blank"
+            href="https://www.capcut.com/tv2/ZSVP23KYf"
+            referrerPolicy="no-referrer"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 font-semibold p-4 px-6 rounded-full bg-red-900 text-white mb-12 w-fit"
+          >
+            Edit Lencana Aksantara di Capcut
+            <Image src={"/capcut.png"} alt="Capcut" width={24} height={24} />
+          </a>
+        </div>
         <AttributeEditor
           mode="twibbon"
           overlay="/assets/twibbon-overlay.png"
