@@ -86,13 +86,22 @@ export default function Home() {
           <NumberBibDownloader />
 
           {/* UDENG */}
-          <a
-            href="/assets/Udeng.pdf"
-            download="Mahkota Aksantara - A4 Full.pdf"
-            className="inline-flex items-center justify-center rounded-xl bg-[#8f241e] px-5 py-3 text-sm font-medium text-white shadow-md transition hover:bg-[#731c17] active:scale-95"
-          >
-            Download Udeng/Mahkota Aksantara [PDF]
-          </a>
+          <div className="flex flex-col gap-4 *:w-full">
+            <a
+              href="/assets/Udeng.pdf"
+              download="Mahkota Aksantara - A4 Full.pdf"
+              className="inline-flex items-center justify-center rounded-xl bg-[#8f241e] px-5 py-5 text-sm font-medium text-white transition hover:bg-[#731c17] active:scale-95"
+            >
+              Download Udeng/Mahkota Aksantara [PDF]
+            </a>
+            <a
+              href="/assets/frame-aksantara.png"
+              download="Frame Aksantara - 1080x1920.png"
+              className="inline-flex items-center justify-center rounded-xl text-[#8f241e] px-5 py-5 text-sm font-medium bg-red-100 transition hover:bg-red-50 active:scale-95"
+            >
+              Download Frame Aksantara
+            </a>
+          </div>
         </div>
       </section>
     </main>
